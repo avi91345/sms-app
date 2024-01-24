@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/menu/menu_main.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/send"
+        android:icon="@drawable/baseline_arrow_forward_24"
+        android:iconTint="#fff"
+        android:title="SEND MESSAGE"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/Rate_the_app"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:title="Rate the app"
+        app:showAsAction="ifRoom" />
+
+
+</menu>

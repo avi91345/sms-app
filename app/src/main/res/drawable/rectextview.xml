@@ -1,0 +1,15 @@
+<!-- res/drawable/toolbar_gradient_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="90dp"/>
+
+
+    <gradient
+        android:startColor="#21032D"
+    android:centerColor="#5E0669"
+    android:centerX="0.5"
+    android:endColor="#C2C2C6"
+    android:angle="180"
+        android:background="@android:color/transparent"/>
+
+</shape>

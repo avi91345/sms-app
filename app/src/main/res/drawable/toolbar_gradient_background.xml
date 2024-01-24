@@ -1,0 +1,22 @@
+<!-- res/drawable/toolbar_gradient_background.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Dark black background layer -->
+    <item android:drawable="@color/cardview_shadow_start_color" />
+
+    <!-- Gradient with rounded corners layer -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp" />
+            <gradient
+                android:startColor="#FFFF00"
+                android:centerColor="#FFA500"
+                android:centerX="0.1"
+                android:endColor="#0000FF"
+                android:gradientRadius="@dimen/cardview_default_elevation"
+                android:angle="0"
+                />
+        </shape>
+    </item>
+
+</layer-list>
